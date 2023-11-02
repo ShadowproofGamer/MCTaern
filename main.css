@@ -1,0 +1,56 @@
+@font-face {
+    font-family: normalfont;
+    src: url(font/Lato-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: scriber;
+    src: url(font/scriber.ttf);
+    font-weight: bold;
+}
+html{
+    width: 100%;
+    font-family: normalfont;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    
+}
+#topka{
+    width: 100%;
+    height: 140px;
+    background-image: url(png/topka.jpg);
+    text-align: center;
+}
+.topka{
+    margin-top: 10px;
+    float: left;
+    width: 10%;
+    height: 120px;
+    text-align: center;
+}
+.margines{
+    width: 25%;
+    height: 140px;
+    float:left
+}
+img.link:hover{
+    transform: scale(1.1, 1.1);
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#trzon{
+    /*width: 100%;
+    height: 1000px;*/ 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(png/tlo4.png);
+}
+.trzon{
+    text-align: center;
+    padding-top: 100px;
+}
